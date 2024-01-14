@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
-
 body {
     margin: 0;
     background: #222; 
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
-    color: #fff; 
+    color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    height: 100vh; 
+    min-height: 100vh; 
+
 }
 
-h1{
+h1 {
     font-size: 30px;
 }
 
-p{
+p {
     font-size: 45px;
 }
 
-.about-page{
+.about-page {
     font-size: 25px;
 }
 
-.resume{
+.resume {
     font-size: 30px;
 }
 
@@ -37,17 +36,9 @@ p{
     max-width: 800px; 
 }
 
-
 .container {
     width: 80%;
     margin: 0 auto;
-}
-
-header, footer {
-    flex-shrink: 0; 
-}
-
-.container {
     flex-grow: 1; 
 }
 
@@ -112,13 +103,12 @@ nav a:hover::before {
     width: 100%;
 }
 
+
 .footer-logos {
     text-align: center;
     padding: 20px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; 
 }
 
 .footer-logos a img {
